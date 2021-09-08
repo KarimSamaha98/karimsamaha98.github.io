@@ -1,0 +1,329 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Karim Samaha Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/video.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
+		<style>
+			#video_pop {
+				z-index: 9999; 
+				position: absolute; 
+				top: 0px; 
+				left: 0px; 
+				width: 100%; 
+				height: 100%; 
+				background: rgba(0,0,0,0.5); 
+				display: none;
+				cursor: pointer;
+			}
+
+			#the_Video {
+				width: 50%;
+				height:75%;
+				position: fixed;
+				top: 50%;
+				left: 50%;
+				-webkit-transform: translate(-50%, -50%);
+				transform: translate(-50%, -50%);
+
+			}
+		</style>
+		
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1>I'm Karim,</h1>
+						<p>a robotics engineer who unleashes his creativity in building robots and mechatronics systems<br />
+						</p>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">About Me</a></li>
+							<li><a href="#first">Skills</a></li>
+							<li><a href="#second">Academic Projects</a></li>
+							<li><a href="#third">Side Projects</a></li>
+							<li><a href="#fourth">Side Job</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>About Me</h2>
+										</header>
+										<p>I have graduated from the American University of Beirut (AUB) in Summer 2020 with a BE in Mechanical Engineering. My passion for science and technology has driven me to join the Robotics Club during my sophomore year. Ever since then, working on robotics and mechatronics projects is something I really enjoy doing during my free time. It is really the process of coming up with an idea or a solution to a problem, designing and manufacturing the prototype, laying out the electronics and finally writing the software that excites me the most. </p>
+										<ul class="actions">
+											<li><a href="documents/Karim_Samaha_CV.pdf" target="_blank" class="button ">Check out my CV!</a></li>
+										</ul>
+									</div>
+									<span class="image"><img src="images/Photo2.jpg" alt="" /></span>
+								</div>
+							</section>
+
+					
+						
+						
+						<!-- First Section -->
+						<section id="first" class="main special">
+							<header class="major">
+								<h2>Skills</h2>
+							</header>
+							<ul class="features">
+								<li>
+									<span class="icon style1"><img src="images/Icons/tools.png" width="75" height="75" alt="" /></span>
+									<h3 style="padding-top: 15px;">Manufacturing</h3>
+									<p>Building prototypes and mechanical components using 3D-printing (SLA and FDM), CNC machining (Drilling, Turning, Milling, Boring) and Laser-cutting.</p>
+								</li>
+	
+								<li>
+									<span class="icon style1"><img src="images/Icons/cpu.png" width="90" height="90" alt="" /></span>
+									<h3>Electronics</h3>
+									<p>Programming micro-controllers, micro-processors and FPGAs. Integrating sensors, actuators and communication interfaces in complex electo-mechanical systems.</p>
+								</li>
+								<li>
+									<span class="icon style1"><img src="images/Icons/computer.png" width="90" height="90" alt="" /></span>
+									<h3>Software</h3>
+									<p>Programming in Python, C++, MATLAB, VHDL, Labview and C#. Making extensive use of librairies such as Tensorflow, Keras, OpenCV and Numpy. Designing simple websites using HTML, CSS and JS.</p>
+								</li>
+								<li>
+									<span class="icon style1"><img src="images/Icons/3d.png" width="90" height="90" alt="" /></span>
+									<h3>Modeling and Simulation</h3>
+									<p>CAD design using AutoCAD, Solidworks and Creo Parametric. Performing stress and motion analysis using Solidworks and Ansys.</p>
+								</li>
+								<li>
+									<span class="icon style1"><img src="images/Icons/analytics.png" width="90" height="90" alt="" /></span>
+									<h3>IT</h3>
+									<p>Proficient in Microsoft Office, Adobe Photoshop, Adobe Illustrator and Techsmith Camtasia</p>
+								</li>
+								<li>
+									<span class="icon style1"><img src="images/Icons/speaking.png" width="90" height="90" alt="" /></span>
+									<h3>Languages</h3>
+									<p>CEFR C2 in English, Arabic and French. CEFR A2 in German</p>
+								</li>
+							</ul>
+						</section> 
+
+
+						<!-- First Section -->
+							<section id="second" class="main special">
+								<header class="major">
+									<h2>Academic Projects</h2>
+								</header>
+								<ul class="features">
+									<li>
+										<span class="icon style1"><img class="circle" src="images/Icons/FPGA-modified.png" width="130" height="130" alt="" /></span>
+										<h3>FPGA-based Camera Controller</h3>
+										<p>The goal of this project was to design a controller that would fetch pixesl from a camera and stream images on an LCD screen in real-time. My role was to design a suitable camera controller which is capable of fetching pixels from the CMOS sensor using an I2C bus. It then operates on the pixels and stores them in memory. The design was implemented on an FPGA using Intel Quartus and NIOS.</p>										
+										
+										<a
+										id="idForShadowClick342342342423 headerVideoLink" class="button popup-modal"
+										onclick="onVideoClick('videos/fpga.mp4');">
+											Watch Demo
+										</a>
+										<a target="_blank"  href="https://www.github.com" class="button">See Presentation</a>
+										<a href="https://www.github.com" class="button">See Repo</a>
+									</li>
+									<li>
+										<span class="icon style1"><img  class="circle" src="images/Icons/Drone-modified.png" width="130" height="130" alt="" /></span>
+										<h3>Autonomous Indoor Drone</h3>
+										<p>The goal of this project was to implement an algorithm on the CrazyFlie drone that would allow it to navigate autonomously in an indoor space using range sensors and optical flow. The code was written in Python</p>
+										<a
+										id="idForShadowClick342342342423 headerVideoLink" class="button popup-modal"
+										onclick="onVideoClick('videos/drone.mp4')">
+											Watch Demo
+										</a>
+										<a target="_blank" href="documents/drone.pdf" class="button">See Presentation</a>
+									</li>
+									<li>
+										<span class="icon style1"><img  class="circle" src="images/Icons/Thymio-modified.png" width="130" height="130" alt="" /></span>
+										<h3>Autonomous Mobile Robot</h3>
+										<p>The goal of this project was to program a mobile robot such that it could navigate its way autonomously to a pre-defined target avoiding static and dynamic obstacles on its way. The robot relies on a Kalman Filter which combines state estimates using a model and a top-view camera reading for localization. As a team member, I have worked on the path planning algorithm and the PID position controller.</p>
+										<a
+										id="idForShadowClick342342342423 headerVideoLink" class="button popup-modal"
+										onclick="onVideoClick('videos/mobile_robot.mp4');">
+											Watch Demo
+										</a>
+									
+									</li>
+									<li>
+										<span class="icon style1"><img  class="circle" src="images/Icons/hivemarte (2).png" width="130" height="130" alt="" /></span>
+										<h3>Tensegrity-Based Morphing Wing</h3>
+										<p>As part of my semester project at EPFL, I have explored the feasibility of tensegrity-based morphing wings through the design, manufacturing and testing of a prototype wing with morphing capabilities.</p>
+									</li>
+									<li>
+										<span class="icon style1"><img  class="circle" src="images/Icons/neural-modified (1).png" width="130" height="130" alt="" /></span>
+										<h3>Camera Calibration from Natural Images using DL</h3>
+										<p>During my undergraduate studies, I have participated in a joint research project between the American University of Beirut and University of Waterloo. A neural network leveraging the traditional methods in camera calibration was designed allowing a user to estimate the camera intrinsics using a set of natural images.</p>
+									</li>
+								</ul>
+
+							</section>
+
+							<!-- First Section -->
+							<section id="third" class="main special">
+								<header class="major">
+									<h2>Side-Projects</h2>
+								</header>
+								<ul class="features">
+									<li>
+										<span class="icon style1"><img  class="circle" src="images/Icons/axis-modified.png" width="130" height="130" alt="" /></span>
+										<h3>3DOF Parallel-Axis CNC</h3>
+										<p>Following the emergence of "All-in-one" 3D printers on Kickstarter in 2018, I have decided to give it a shot myself. The robot can draw any image uploaded on MATLAB using a modified version of a G-code. The algorithm converts an image into a set of (x,y,z) coordinates and then maps each point to a set of joint angles for the different stepper motors.</p>
+										<a
+										id="idForShadowClick342342342423 headerVideoLink" class="button popup-modal"
+										onclick="onVideoClick('videos/cnc.mp4');">
+											Watch Demo
+										</a>
+										<a href="https://www.github.com" class="button">See Repo.</a>
+									</li>
+									<li>
+										<span class="icon style1"><img  class="circle" src="images/Icons/20210904_111253-modified.png" width="130" height="130" alt="" /></span>
+										<h3>Self-Balancing Assistant Robot</h3>
+										<p>In an attempt to explore the marvels of a PID control in practice, I have decided to build a self-balancing robot using a RaspberryPi, a gyroscope and two stepper motors. The end goal was to control the robot remotely using hand gesture and feedback from the camera mounted on the robot's head</p>
+										<a href="https://www.github.com" class="button">See Repo.</a>
+									</li>
+									<li>
+										<span class="icon style1"><img  class="circle" src="images/Icons/spider-modified.png" width="130" height="130" alt="" /></span>
+										<h3>Spider-inspired Robot</h3>
+										<p>As part of the IEEE 2018 Hackaton, my teammates and I have decided to build a quadruped robot that can be used for the inspection of tight spaces such as ventilations and electrical systems.</p>
+										<a
+										id="idForShadowClick342342342423 headerVideoLink" class="button popup-modal"
+										onclick="onVideoClick('videos/robot.mp4');">
+											Watch Demo
+										</a>
+									</li>
+									<li>
+										<span class="icon style1"><img  class="circle" src="images/Icons/Remote-modified.png" width="130" height="130" alt="" /></span>
+										<h3>Voice-Controlled Remote Control</h3>
+										<p>In an attempt to give my "non-smart" devices a lift, I have built a voice-controlled IR transmitter that is capable of converting any standard IR-controlled device into a voice controlled smart device. An ESP-32 microcontroller connected to the wifi was used as an interface between the mobile phone and the device. IFTTT and Blynk were used to make the IR-transmitter compatible with google assistant.</p>
+										<a
+										id="idForShadowClick342342342423 headerVideoLink" class="button popup-modal"
+										onclick="onVideoClick2('videos/remote.mp4');">
+											Watch Demo
+										</a>
+									</li>
+									<li>
+										<span class="icon style1"><img  class="circle" src="images/Icons/hivemarte (1).png" width="130" height="130" alt="" /></span>
+										<h3>Smart System for Beehive Monitoring</h3>
+										<p>As part of the AUB FYP accelerator program, HiveaMate was born. HiveMate is an intelligent device, which relies on computer vision and artificial intelligence, unlike other smart hive accessories, to save time and avoid losses in bees and honey, because HiveMate facilitates the beekeeping process by carefully mimicking what beekeepers usually do. </p>
+										<a
+										id="idForShadowClick342342342423 headerVideoLink" class="button popup-modal"
+										onclick="onVideoClick2('videos/pitch.mp4');">
+											Watch Accelerator Pitch
+										</a>
+										<a
+										id="idForShadowClick342342342423 headerVideoLink" class="button popup-modal"
+										onclick="onVideoClick('videos/hivemate.mp4');">
+											Watch Product Demo
+										</a>
+									</li>
+								</ul>
+								
+							</section>
+
+						<!-- Introduction -->
+						<section id="fourth" class="main">
+							<span class="image"><img src="images/Icons/01tutor_AZ_Initial-01 (1).jpg" width="300" height="100"  alt="" /></span>
+							<div class="spotlight">
+								<div class="content">
+									<header class="major">
+										<h2>Mechanical Engineering Tutor</h2>
+									</header>
+									<p>Given the changes that have resulted from the Covid pandemic and my four-year experience in tutoring university students, my colleagues and I have partnered up and launched an e-learning platform, 01TUTOR.
+									The website offers on-demand pre-recorded videos for engineering, sciences and business courses. The videos are designed to respond to students' need for a structured and concise course content which provides 
+									simple explanation and detailed guidelines for problem solving. I am currently offering courses related to Thermodynamics and Dynamics.  </p>
+									<ul class="actions">
+										<li><a href="https://01tutor.org/" target="_blank" class="button">Check out the website!</a>
+											<a
+											id="idForShadowClick342342342423 headerVideoLink" class="button popup-modal"
+											onclick="onVideoClick2('videos/tutoring.mp4');">
+												Watch Sample Video
+											</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Karim Samaha</h2>
+							<dl class="alt">
+								<dt>Address</dt>
+								<dd>Avenue du tir fédéral 92 &bull; Ecublens, 1024 &bull; Switzerland</dd>
+								<dt>Phone</dt>
+								<dd>(041) 076-271-28-35</dd>
+								<dt>Email</dt>
+								<dd><a href="#">KarimSamaha98@gmail.com</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
+							</ul>
+						</section>
+					</footer>
+					
+					<div id="video_pop" onclick="onPopClick()"></div>
+
+			</div>
+
+
+			
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/video.js"></script>
+			<script>
+					function onVideoClick(theLink) {
+						document.getElementById("video_pop").innerHTML = "<video controls muted autoplay id=\"the_Video\"><source src=\""+theLink+"\" type=\"video/webm\"></video>";
+						document.getElementById("video_pop").style.display="block";
+					} 
+
+					function onVideoClick2(theLink) {
+						document.getElementById("video_pop").innerHTML = "<video controls autoplay id=\"the_Video\"><source src=\""+theLink+"\" type=\"video/webm\"></video>";
+						document.getElementById("video_pop").style.display="block";
+					} 
+
+					function onPopClick() {
+						document.getElementById("video_pop").style.display="none";
+						document.getElementById("video_pop").innerHTML = ""; 
+					}         
+			</script>
+
+	</body>
+</html>
